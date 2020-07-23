@@ -1,0 +1,17 @@
+[package]
+name = "pyo3test"
+version = "0.1.0"
+authors = ["niklas.molin <niklas.molin@klarna.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "string_sum"
+crate-type = ["cdylib"]
+
+[dependencies.pyo3]
+version = "0.11.1"
+features = ["extension-module"]
+
+[dependencies]
