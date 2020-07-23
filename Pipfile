@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+click = "*"
+arrowlab = {editable = true, path = "."}
+faker = "*"
+pyarrow = "*"
+pandas ="*"
+numpy = "*"
+memory-profiler = "0.57.0"
+cffi= "*"
+matplotlib = "*"

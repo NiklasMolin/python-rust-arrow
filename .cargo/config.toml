@@ -1,0 +1,7 @@
+[target.x86_64-apple-darwin]
+rustflags = [
+  "-A", "warnings"
+]
+# in build.rs instead
+# "-C", "link-arg=-undefined",
+#  "-C", "link-arg=dynamic_lookup",

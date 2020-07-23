@@ -1,0 +1,7 @@
+test_data.parquet
+arrow_source
+.
+_pycache
+.venv
+.vscode
+build
